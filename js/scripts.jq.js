@@ -1,0 +1,6 @@
+//@codekit-prepend "vendor/jquery.js"
+//@codekit-prepend "vendor/prism.js"
+//@codekit-prepend "foundation/foundation.js"
+//@codekit-prepend "foundation/foundation.magellan.js"
+//@codekit-prepend "foundation/foundation.topbar.js"
+//@codekit-prepend "custom.js"
