@@ -1,0 +1,195 @@
+@font-face {
+	font-family: 'Continental-Symbol-ST';
+	src:url('fonts/Continental-Symbol-ST.eot');
+	src:url('fonts/Continental-Symbol-ST.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Continental-Symbol-ST.woff') format('woff'),
+		url('fonts/Continental-Symbol-ST.ttf') format('truetype'),
+		url('fonts/Continental-Symbol-ST.svg#Continental-Symbol-ST') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Continental-Symbol-ST';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="map-"] {
+*/
+.map-eur, .map-va, .map-uk, .map-ua, .map-tr, .map-sm, .map-sk, .map-si, .map-se, .map-ru, .map-rs, .map-ro, .map-pt, .map-pl, .map-no, .map-nl, .map-mt, .map-mk, .map-me, .map-md, .map-mc, .map-lv, .map-lu, .map-lt, .map-li, .map-je, .map-it, .map-is, .map-im, .map-ie, .map-hu, .map-hr, .map-gr, .map-gg, .map-ge, .map-fr, .map-fo, .map-fi, .map-es, .map-ee, .map-dk, .map-de, .map-cz, .map-cy, .map-ch, .map-by, .map-bg, .map-be, .map-ba, .map-at, .map-al, .map-ad {
+	font-family: 'Continental-Symbol-ST';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.map-eur:before {
+	content: "\e001";
+}
+.map-va:before {
+	content: "\e002";
+}
+.map-uk:before {
+	content: "\e003";
+}
+.map-ua:before {
+	content: "\e004";
+}
+.map-tr:before {
+	content: "\e005";
+}
+.map-sm:before {
+	content: "\e006";
+}
+.map-sk:before {
+	content: "\e007";
+}
+.map-si:before {
+	content: "\e008";
+}
+.map-se:before {
+	content: "\e009";
+}
+.map-ru:before {
+	content: "\e00a";
+}
+.map-rs:before {
+	content: "\e00b";
+}
+.map-ro:before {
+	content: "\e00c";
+}
+.map-pt:before {
+	content: "\e00d";
+}
+.map-pl:before {
+	content: "\e00e";
+}
+.map-no:before {
+	content: "\e00f";
+}
+.map-nl:before {
+	content: "\e010";
+}
+.map-mt:before {
+	content: "\e011";
+}
+.map-mk:before {
+	content: "\e012";
+}
+.map-me:before {
+	content: "\e013";
+}
+.map-md:before {
+	content: "\e014";
+}
+.map-mc:before {
+	content: "\e015";
+}
+.map-lv:before {
+	content: "\e016";
+}
+.map-lu:before {
+	content: "\e017";
+}
+.map-lt:before {
+	content: "\e018";
+}
+.map-li:before {
+	content: "\e019";
+}
+.map-je:before {
+	content: "\e01a";
+}
+.map-it:before {
+	content: "\e01b";
+}
+.map-is:before {
+	content: "\e01c";
+}
+.map-im:before {
+	content: "\e01d";
+}
+.map-ie:before {
+	content: "\e01e";
+}
+.map-hu:before {
+	content: "\e01f";
+}
+.map-hr:before {
+	content: "\e020";
+}
+.map-gr:before {
+	content: "\e021";
+}
+.map-gg:before {
+	content: "\e022";
+}
+.map-ge:before {
+	content: "\e023";
+}
+.map-fr:before {
+	content: "\e024";
+}
+.map-fo:before {
+	content: "\e025";
+}
+.map-fi:before {
+	content: "\e026";
+}
+.map-es:before {
+	content: "\e027";
+}
+.map-ee:before {
+	content: "\e028";
+}
+.map-dk:before {
+	content: "\e029";
+}
+.map-de:before {
+	content: "\e02a";
+}
+.map-cz:before {
+	content: "\e02b";
+}
+.map-cy:before {
+	content: "\e02c";
+}
+.map-ch:before {
+	content: "\e02d";
+}
+.map-by:before {
+	content: "\e02e";
+}
+.map-bg:before {
+	content: "\e02f";
+}
+.map-be:before {
+	content: "\e030";
+}
+.map-ba:before {
+	content: "\e031";
+}
+.map-at:before {
+	content: "\e032";
+}
+.map-al:before {
+	content: "\e033";
+}
+.map-ad:before {
+	content: "\e034";
+}
