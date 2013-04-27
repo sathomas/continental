@@ -17,7 +17,12 @@
 </head>
 <body>
 
-  
+  <!--
+=================================================================================
+ BANNER
+=================================================================================
+   -->
+
   <div class="row">
     <div class="large-12 columns">
       <div class="hero">
@@ -28,9 +33,15 @@
     </div>
   </div>
   
+  <!--
+=================================================================================
+ NAVIGATION
+=================================================================================
+  -->
+ 
   <div class="row">
     <div class="large-12 columns">
-      <div class="contain-to-grid sticky data-magellan-expedition="fixed"">
+      <div class="contain-to-grid sticky" data-magellan-expedition>
         <nav class="top-bar">
           <ul class="title-area">
             <!-- Title Area -->
@@ -70,147 +81,164 @@
       </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="overview" id="overview">Overview</h3>
+<!--
+===============================================================================
+ OVERVIEW
+===============================================================================
+ -->
+  <div data-magellan-destination="overview">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="overview">Overview</h3>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <p>
-        Continental is a specialized web font. It doesn't contain the typical
-        letters and characters of a standard font; instead, its symbols are
-        maps, specifically maps of the countries of Europe. Continental makes
-        it easy to include these maps within web pages. Include the font like
-        any other web font, and then use standard HTML and CSS to create maps.
-        No Javascript and no complicated API calls are necessary. Continental
-        is not a replacement for a mapping service like Google Maps. It can't
-        provide directions, or traffic conditions, or even satellite images.
-        But if you're creating simple diagrams or visualizations that include
-        maps, Continental may be able to help.
-      </p>
-    </div>
-  </div>
-    
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="usage" id="usage">Using the Font</h3>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="large-12 columns">
-      <p>
-        Continental isn't (yet) available in any of the web font services,
-        so you'll have to host it on your own web server. First you'll want
-        to get the code from Github. Fork if you like, or simply download
-        the master branch as a zip file.
-      </p>
-      <p>
-        <a href="http://github.com/sathomas/continental/archive/master.zip" download="continental.zip" rel="nofollow" title="Download as a zip file" class="secondary small button">Download →</a>
-      </p>
-      <p>
-        The font itself is in the <code class="language-css">fonts</code> folder.
-        There are four different formats which should cover all possible browsers
-        (even going back to IE6).
-      </p>
-      <p>
-        The <code class="language-css">css</code> folder contains the
-        <code class="language-css">continental.css</code> style sheet.
-        You can either include this style sheet directly in your pages,
-        or you can combine it with your other style sheets. By default
-        the styles give priority to the SVG font format because Windows
-        systems tend to render that more format more accurately. The
-        SVG file is much larger, however; if you'd rather optimize for
-        network performance instead of display quality, you can edit
-        <code class="language-css">continental.css</code> to remove the
-        extra references.
-      </p>
-      <p>
-        Finally, there's a <code class="language-css">js</code> folder with a
-        Javascript file for supporting IE6 and IE7. If you have to support
-        those browsers, you can include that file in your pages. Please use a
-        conditional comment so that other browsers don't see it. The
-        Javascript conflicts with the CSS styles, plus it really slows downs
-        performance.
-      </p>
-      <p>
-        Once you've installed the appropriate files on your server and added
-        references to them in your web pages, using Continental is a piece of
-        cake. Whenever you want to show a country map, simply include the
-        following markup:
-      </p>
-      <pre><code class="language-css">&lt;span class=&quot;map-XX&quot;&gt;&lt;/span&gt;</code></pre>
-      <p>
-        Instead of <code class="language-css">XX</code> use the
-        <a href="http://www.iso.org/iso/country_codes">ISO 3166-1</a>
-        two-letter abbreviation for the country you wish to show. Wikipedia has a
-        <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">complete list</a>
-        of those abbreviations. You can also use the class
-        <code class="language-css">map-eur</code> to get a map for all of Europe.
-      </p>
-      <blockquote>
+    <div class="row">
+      <div class="large-12 columns">
         <p>
-          Note: The <code class="language-css">map-eur</code> symbol is very
-          complex (all those Norwegian fjords and Greek islands), and most
-          browsers take several seconds to render it. You might want to take
-          extra steps to deal with any performance issues that this delay
-          could create.
+          Continental is a specialized web font. It doesn't contain the typical
+          letters and characters of a standard font; instead, its symbols are
+          maps, specifically maps of the countries of Europe. Continental makes
+          it easy to include these maps within web pages. Include the font like
+          any other web font, and then use standard HTML and CSS to create maps.
+          No Javascript and no complicated API calls are necessary. Continental
+          is not a replacement for a mapping service like Google Maps. It can't
+          provide directions, or traffic conditions, or even satellite images.
+          But if you're creating simple diagrams or visualizations that include
+          maps, Continental may be able to help.
         </p>
-      </blockquote>
-      <p>
-        Each map is a single character, so you can apply CSS styles just like you
-        would to any text. Set the color, size, text shadows, etc. The font doesn't
-        include variations such as bold or italics, however, so keep the
-        <code class="language-css">font-style</code> and
-        <code class="language-css">font-weight</code> normal.
-      </p>
-      <p>
-        Check out the next section for some examples.
-      </p>
+      </div>
     </div>
   </div>
-  
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="examples" id="examples">Examples</h3>
+  <!--
+=================================================================================
+ USAGE
+=================================================================================
+   -->
+  <div data-magellan-destination="usage">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="usage">Using the Font</h3>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <p>
+          Continental isn't (yet) available in any of the web font services,
+          so you'll have to host it on your own web server. First you'll want
+          to get the code from Github. Fork if you like, or simply download
+          the master branch as a zip file.
+        </p>
+        <p>
+          <a href="http://github.com/sathomas/continental/archive/master.zip" download="continental.zip" rel="nofollow" title="Download as a zip file" class="secondary small button">Download →</a>
+        </p>
+        <p>
+          The font itself is in the <code class="language-css">fonts</code> folder.
+          There are four different formats which should cover all possible browsers
+          (even going back to IE6).
+        </p>
+        <p>
+          The <code class="language-css">css</code> folder contains the
+          <code class="language-css">continental.css</code> style sheet.
+          You can either include this style sheet directly in your pages,
+          or you can combine it with your other style sheets. By default
+          the styles give priority to the SVG font format because Windows
+          systems tend to render that more format more accurately. The
+          SVG file is much larger, however; if you'd rather optimize for
+          network performance instead of display quality, you can edit
+          <code class="language-css">continental.css</code> to remove the
+          extra references.
+        </p>
+        <p>
+          Finally, there's a <code class="language-css">js</code> folder with a
+          Javascript file for supporting IE6 and IE7. If you have to support
+          those browsers, you can include that file in your pages. Please use a
+          conditional comment so that other browsers don't see it. The
+          Javascript conflicts with the CSS styles, plus it really slows downs
+          performance.
+        </p>
+        <p>
+          Once you've installed the appropriate files on your server and added
+          references to them in your web pages, using Continental is a piece of
+          cake. Whenever you want to show a country map, simply include the
+          following markup:
+        </p>
+        <pre><code class="language-css">&lt;span class=&quot;map-XX&quot;&gt;&lt;/span&gt;</code></pre>
+        <p>
+          Instead of <code class="language-css">XX</code> use the
+          <a href="http://www.iso.org/iso/country_codes">ISO 3166-1</a>
+          two-letter abbreviation for the country you wish to show. Wikipedia has a
+          <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">complete list</a>
+          of those abbreviations. You can also use the class
+          <code class="language-css">map-eur</code> to get a map for all of Europe.
+        </p>
+        <blockquote>
+          <p>
+            Note: The <code class="language-css">map-eur</code> symbol is very
+            complex (all those Norwegian fjords and Greek islands), and most
+            browsers take several seconds to render it. You might want to take
+            extra steps to deal with any performance issues that this delay
+            could create.
+          </p>
+        </blockquote>
+        <p>
+          Each map is a single character, so you can apply CSS styles just like you
+          would to any text. Set the color, size, text shadows, etc. The font doesn't
+          include variations such as bold or italics, however, so keep the
+          <code class="language-css">font-style</code> and
+          <code class="language-css">font-weight</code> normal.
+        </p>
+        <p>
+          Check out the next section for some examples.
+        </p>
+      </div>
     </div>
   </div>
-  
- <div class="row" id="example-maps">
-     <div class="large-8 columns">
-       <p>
-         The font's design allows you to create maps by stacking individual country symbols on top of
-         each other. An easy way to do that is to start with a container tag and give that element a
-         <code class="language-css">position</code> of <code class="language-css">relative</code>.
-       </p>
-       <pre><code class="language-css">.map-stack {
+  <!--
+=================================================================================
+ EXAMPLES
+=================================================================================
+   -->
+  <div data-magellan-destination="examples">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="examples">Examples</h3>
+      </div>
+    </div>
+    
+   <div class="row" id="example-maps">
+       <div class="large-8 columns">
+         <p>
+           The font's design allows you to create maps by stacking individual country symbols on top of
+           each other. An easy way to do that is to start with a container tag and give that element a
+           <code class="language-css">position</code> of <code class="language-css">relative</code>.
+         </p>
+         <pre><code class="language-css">.map-stack {
      position: relative;
  }</code></pre>
-       <p>
-         Within that element each individual country symbol can be give a
-         <code class="language-css">position</code> of
-         <code class="language-css">absolute</code> and the same
-         <code class="language-css">top</code> and <code class="language-css">left</code> coordinates.
-         That will overlay each country on top of the one before it.
-       </p>
-       <pre><code class="language-css">.map-stack > [class*="map-"] {
+         <p>
+           Within that element each individual country symbol can be give a
+           <code class="language-css">position</code> of
+           <code class="language-css">absolute</code> and the same
+           <code class="language-css">top</code> and <code class="language-css">left</code> coordinates.
+           That will overlay each country on top of the one before it.
+         </p>
+         <pre><code class="language-css">.map-stack > [class*="map-"] {
      position: absolute;
      top: 0;
      left: 0;
  }</code></pre>
-       <p>
-         Of course, you can style the countries individually. Perhaps you might set
-         the base color of the entire European map to <code class="language-css">lightgray</code>
-         and then individual countries worthy of highlighting to
-         <code class="language-css">steelblue</code>.
-       </p>
-       <p>
-         With those styles, creating the map is simple. Here's an example showing
-         the countries that have adopted the Euro currency.
-       </p>
-       <pre><code class="language-markup">&lt;figure&gt;
+         <p>
+           Of course, you can style the countries individually. Perhaps you might set
+           the base color of the entire European map to <code class="language-css">lightgray</code>
+           and then individual countries worthy of highlighting to
+           <code class="language-css">steelblue</code>.
+         </p>
+         <p>
+           With those styles, creating the map is simple. Here's an example showing
+           the countries that have adopted the Euro currency.
+         </p>
+         <pre><code class="language-markup">&lt;figure&gt;
    &lt;figcaption&gt;Eurozone Countries&lt;/figcaption&gt;
    &lt;div class=&quot;map-stack&quot;&gt;
        &lt;span class=&quot;map-eur&quot;&gt;&lt;/span&gt;
@@ -220,557 +248,579 @@
        &lt;span class=&quot;map-sk&quot;&gt;&lt;/span&gt;
    &lt;/div&gt;
  &lt;/figure&gt;</code></pre>
-     </div>
-    <div class="large-4 columns">
-      <figure class="map">
-        <figcaption>Number of Official Languages</figcaption>
-        <div class="map-stack">
-            <span class="map-ad lang-1"></span>
-            <span class="map-al lang-1"></span>
-            <span class="map-at lang-4"></span>
-            <span class="map-ba lang-3"></span>
-            <span class="map-be lang-3"></span>
-            <span class="map-bg lang-1"></span>
-            <span class="map-by lang-2"></span>
-            <span class="map-ch lang-4"></span>
-            <span class="map-cy lang-3"></span>
-            <span class="map-cz lang-1"></span>
-            <span class="map-de lang-1"></span>
-            <span class="map-dk lang-1"></span>
-            <span class="map-ee lang-1"></span>
-            <span class="map-es lang-4"></span>
-            <span class="map-fi lang-2"></span>
-            <span class="map-fo lang-2"></span>
-            <span class="map-fr lang-1"></span>
-            <span class="map-ge lang-1"></span>
-            <span class="map-gg lang-2"></span>
-            <span class="map-gr lang-1"></span>
-            <span class="map-hr lang-1"></span>
-            <span class="map-hu lang-1"></span>
-            <span class="map-ie lang-2"></span>
-            <span class="map-al lang-1"></span>
-            <span class="map-im lang-2"></span>
-            <span class="map-it lang-1"></span>
-            <span class="map-jj lang-2"></span>
-            <span class="map-li lang-1"></span>
-            <span class="map-lt lang-1"></span>
-            <span class="map-lu lang-3"></span>
-            <span class="map-lv lang-1"></span>
-            <span class="map-mc lang-1"></span>
-            <span class="map-md lang-2"></span>
-            <span class="map-me lang-1"></span>
-            <span class="map-mk lang-1"></span>
-            <span class="map-mt lang-1"></span>
-            <span class="map-nl lang-2"></span>
-            <span class="map-no lang-1"></span>
-            <span class="map-pl lang-1"></span>
-            <span class="map-pt lang-1"></span>
-            <span class="map-ro lang-1"></span>
-            <span class="map-rs lang-2"></span>
-            <span class="map-ru lang-1"></span>
-            <span class="map-se lang-1"></span>
-            <span class="map-si lang-1"></span>
-            <span class="map-sk lang-1"></span>
-            <span class="map-sm lang-1"></span>
-            <span class="map-tr lang-1"></span>
-            <span class="map-ua lang-1"></span>
-            <span class="map-uk lang-1"></span>
-            <span class="map-va lang-1"></span>
-        </span>
-      </figure>
-      <div class="legend">
-        <span class="lang-1">&#x2587;</span> 1 &nbsp;&nbsp;
-        <span class="lang-2">&#x2587;</span> 2 &nbsp;&nbsp;
-        <span class="lang-3">&#x2587;</span> 3 &nbsp;&nbsp;
-        <span class="lang-4">&#x2587;</span> 4
-        <span class="attribution">Source: <a href="http://www.nationsonline.org/oneworld/european_languages.htm">nationsonline.com</a></span>
+       </div>
+      <div class="large-4 columns">
+        <figure class="map">
+          <figcaption>Number of Official Languages</figcaption>
+          <div class="map-stack">
+              <span class="map-ad lang-1"></span>
+              <span class="map-al lang-1"></span>
+              <span class="map-at lang-4"></span>
+              <span class="map-ba lang-3"></span>
+              <span class="map-be lang-3"></span>
+              <span class="map-bg lang-1"></span>
+              <span class="map-by lang-2"></span>
+              <span class="map-ch lang-4"></span>
+              <span class="map-cy lang-3"></span>
+              <span class="map-cz lang-1"></span>
+              <span class="map-de lang-1"></span>
+              <span class="map-dk lang-1"></span>
+              <span class="map-ee lang-1"></span>
+              <span class="map-es lang-4"></span>
+              <span class="map-fi lang-2"></span>
+              <span class="map-fo lang-2"></span>
+              <span class="map-fr lang-1"></span>
+              <span class="map-ge lang-1"></span>
+              <span class="map-gg lang-2"></span>
+              <span class="map-gr lang-1"></span>
+              <span class="map-hr lang-1"></span>
+              <span class="map-hu lang-1"></span>
+              <span class="map-ie lang-2"></span>
+              <span class="map-al lang-1"></span>
+              <span class="map-im lang-2"></span>
+              <span class="map-it lang-1"></span>
+              <span class="map-jj lang-2"></span>
+              <span class="map-li lang-1"></span>
+              <span class="map-lt lang-1"></span>
+              <span class="map-lu lang-3"></span>
+              <span class="map-lv lang-1"></span>
+              <span class="map-mc lang-1"></span>
+              <span class="map-md lang-2"></span>
+              <span class="map-me lang-1"></span>
+              <span class="map-mk lang-1"></span>
+              <span class="map-mt lang-1"></span>
+              <span class="map-nl lang-2"></span>
+              <span class="map-no lang-1"></span>
+              <span class="map-pl lang-1"></span>
+              <span class="map-pt lang-1"></span>
+              <span class="map-ro lang-1"></span>
+              <span class="map-rs lang-2"></span>
+              <span class="map-ru lang-1"></span>
+              <span class="map-se lang-1"></span>
+              <span class="map-si lang-1"></span>
+              <span class="map-sk lang-1"></span>
+              <span class="map-sm lang-1"></span>
+              <span class="map-tr lang-1"></span>
+              <span class="map-ua lang-1"></span>
+              <span class="map-uk lang-1"></span>
+              <span class="map-va lang-1"></span>
+          </span>
+        </figure>
+        <div class="legend">
+          <span class="lang-1">&#x2587;</span> 1 &nbsp;&nbsp;
+          <span class="lang-2">&#x2587;</span> 2 &nbsp;&nbsp;
+          <span class="lang-3">&#x2587;</span> 3 &nbsp;&nbsp;
+          <span class="lang-4">&#x2587;</span> 4
+          <span class="attribution">Source: <a href="http://www.nationsonline.org/oneworld/european_languages.htm">nationsonline.com</a></span>
+        </div>
+        <div style="line-height:3em;">&nbsp</div>
+        <figure class="map">
+          <figcaption>The Eurozone</figcaption>
+          <div class="map-stack">
+              <span class="map-eur base"></span>
+              <span class="map-ad eu"></span>
+              <span class="map-at eu"></span>
+              <span class="map-be eu"></span>
+              <span class="map-cy eu"></span>
+              <span class="map-de eu"></span>
+              <span class="map-ee eu"></span>
+              <span class="map-es eu"></span>
+              <span class="map-fi eu"></span>
+              <span class="map-fr eu"></span>
+              <span class="map-gr eu"></span>
+              <span class="map-ie eu"></span>
+              <span class="map-it eu"></span>
+              <span class="map-lu eu"></span>
+              <span class="map-mc eu"></span>
+              <span class="map-mt eu"></span>
+              <span class="map-nl eu"></span>
+              <span class="map-pt eu"></span>
+              <span class="map-si eu"></span>
+              <span class="map-sk eu"></span>
+              <span class="map-sm eu"></span>
+              <span class="map-va eu"></span>
+          </span>
+        </figure>
       </div>
-      <div style="line-height:3em;">&nbsp</div>
-      <figure class="map">
-        <figcaption>The Eurozone</figcaption>
-        <div class="map-stack">
-            <span class="map-eur base"></span>
-            <span class="map-ad eu"></span>
-            <span class="map-at eu"></span>
-            <span class="map-be eu"></span>
-            <span class="map-cy eu"></span>
-            <span class="map-de eu"></span>
-            <span class="map-ee eu"></span>
-            <span class="map-es eu"></span>
-            <span class="map-fi eu"></span>
-            <span class="map-fr eu"></span>
-            <span class="map-gr eu"></span>
-            <span class="map-ie eu"></span>
-            <span class="map-it eu"></span>
-            <span class="map-lu eu"></span>
-            <span class="map-mc eu"></span>
-            <span class="map-mt eu"></span>
-            <span class="map-nl eu"></span>
-            <span class="map-pt eu"></span>
-            <span class="map-si eu"></span>
-            <span class="map-sk eu"></span>
-            <span class="map-sm eu"></span>
-            <span class="map-va eu"></span>
-        </span>
-      </figure>
     </div>
   </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="reference" id="reference">Reference</h3>
+  <!--
+=================================================================================
+ REFERENCE
+=================================================================================
+   -->
+  <div data-magellan-destination="reference">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="reference">Reference</h3>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="large-12 columns">
+        <p>
+          Here are all of the individual glyphs in the font. (At this size it's
+          hard to see some of the microstates, but they're there if you need them.)
+        </p>
+        <ul class="small-block-grid-2 large-block-grid-4" id="glyphs">
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Andorra</li>
+              <li class="bullet-item glyph"><span class="map-ad"></span></li>
+              <li class="bullet-item code">class: map-ad</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Albania</li>
+              <li class="bullet-item glyph"><span class="map-al"></span></li>
+              <li class="bullet-item code">class: map-al</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Austria</li>
+              <li class="bullet-item glyph"><span class="map-at"></span></li>
+              <li class="bullet-item code">class: map-at</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Bosnia</li>
+              <li class="bullet-item glyph"><span class="map-ba"></span></li>
+              <li class="bullet-item code">class: map-ba</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Belgium</li>
+              <li class="bullet-item glyph"><span class="map-be"></span></li>
+              <li class="bullet-item code">class: map-be</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Bulgaria</li>
+              <li class="bullet-item glyph"><span class="map-bg"></span></li>
+              <li class="bullet-item code">class: map-bg</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Belorus</li>
+              <li class="bullet-item glyph"><span class="map-by"></span></li>
+              <li class="bullet-item code">class: map-by</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Switzerland</li>
+              <li class="bullet-item glyph"><span class="map-ch"></span></li>
+              <li class="bullet-item code">class: map-ch</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Cyprus</li>
+              <li class="bullet-item glyph"><span class="map-cy"></span></li>
+              <li class="bullet-item code">class: map-cy</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Czech Republic</li>
+              <li class="bullet-item glyph"><span class="map-cz"></span></li>
+              <li class="bullet-item code">class: map-cz</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Germany</li>
+              <li class="bullet-item glyph"><span class="map-de"></span></li>
+              <li class="bullet-item code">class: map-de</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Denmark</li>
+              <li class="bullet-item glyph"><span class="map-dk"></span></li>
+              <li class="bullet-item code">class: map-dk</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Estonia</li>
+              <li class="bullet-item glyph"><span class="map-ee"></span></li>
+              <li class="bullet-item code">class: map-ee</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Spain</li>
+              <li class="bullet-item glyph"><span class="map-es"></span></li>
+              <li class="bullet-item code">class: map-es</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Finland</li>
+              <li class="bullet-item glyph"><span class="map-fi"></span></li>
+              <li class="bullet-item code">class: map-fi</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Faroe Islands</li>
+              <li class="bullet-item glyph"><span class="map-fo"></span></li>
+              <li class="bullet-item code">class: map-fo</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">France</li>
+              <li class="bullet-item glyph"><span class="map-fr"></span></li>
+              <li class="bullet-item code">class: map-fr</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Georgia</li>
+              <li class="bullet-item glyph"><span class="map-ge"></span></li>
+              <li class="bullet-item code">class: map-ge</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Guernsey</li>
+              <li class="bullet-item glyph"><span class="map-gg"></span></li>
+              <li class="bullet-item code">class: map-gg</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Greece</li>
+              <li class="bullet-item glyph"><span class="map-gr"></span></li>
+              <li class="bullet-item code">class: map-gr</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Croatia</li>
+              <li class="bullet-item glyph"><span class="map-hr"></span></li>
+              <li class="bullet-item code">class: map-hr</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Hungary</li>
+              <li class="bullet-item glyph"><span class="map-hu"></span></li>
+              <li class="bullet-item code">class: map-hu</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Ireland</li>
+              <li class="bullet-item glyph"><span class="map-ie"></span></li>
+              <li class="bullet-item code">class: map-ie</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Isle of Man</li>
+              <li class="bullet-item glyph"><span class="map-im"></span></li>
+              <li class="bullet-item code">class: map-im</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Iceland</li>
+              <li class="bullet-item glyph"><span class="map-is"></span></li>
+              <li class="bullet-item code">class: map-is</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Italy</li>
+              <li class="bullet-item glyph"><span class="map-it"></span></li>
+              <li class="bullet-item code">class: map-it</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Jersey</li>
+              <li class="bullet-item glyph"><span class="map-je"></span></li>
+              <li class="bullet-item code">class: map-je</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Liechtenstein</li>
+              <li class="bullet-item glyph"><span class="map-li"></span></li>
+              <li class="bullet-item code">class: map-li</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Lithuania</li>
+              <li class="bullet-item glyph"><span class="map-lt"></span></li>
+              <li class="bullet-item code">class: map-lt</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Luxembourg</li>
+              <li class="bullet-item glyph"><span class="map-lu"></span></li>
+              <li class="bullet-item code">class: map-lu</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Latvia</li>
+              <li class="bullet-item glyph"><span class="map-lv"></span></li>
+              <li class="bullet-item code">class: map-lv</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Monaco</li>
+              <li class="bullet-item glyph"><span class="map-mc"></span></li>
+              <li class="bullet-item code">class: map-mc</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Moldova</li>
+              <li class="bullet-item glyph"><span class="map-md"></span></li>
+              <li class="bullet-item code">class: map-md</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Montenegro</li>
+              <li class="bullet-item glyph"><span class="map-me"></span></li>
+              <li class="bullet-item code">class: map-me</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Macedonia</li>
+              <li class="bullet-item glyph"><span class="map-mk"></span></li>
+              <li class="bullet-item code">class: map-mk</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Malta</li>
+              <li class="bullet-item glyph"><span class="map-mt"></span></li>
+              <li class="bullet-item code">class: map-mt</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Netherlands</li>
+              <li class="bullet-item glyph"><span class="map-nl"></span></li>
+              <li class="bullet-item code">class: map-nl</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Norway</li>
+              <li class="bullet-item glyph"><span class="map-no"></span></li>
+              <li class="bullet-item code">class: map-no</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Country</li>
+              <li class="bullet-item glyph"><span class="map-pl"></span></li>
+              <li class="bullet-item code">class: map-pl</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Portugal</li>
+              <li class="bullet-item glyph"><span class="map-pt"></span></li>
+              <li class="bullet-item code">class: map-pt</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Romania</li>
+              <li class="bullet-item glyph"><span class="map-ro"></span></li>
+              <li class="bullet-item code">class: map-ro</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Serbia</li>
+              <li class="bullet-item glyph"><span class="map-rs"></span></li>
+              <li class="bullet-item code">class: map-rs</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Russia</li>
+              <li class="bullet-item glyph"><span class="map-ru"></span></li>
+              <li class="bullet-item code">class: map-ru</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Sweden</li>
+              <li class="bullet-item glyph"><span class="map-se"></span></li>
+              <li class="bullet-item code">class: map-se</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Slovenia</li>
+              <li class="bullet-item glyph"><span class="map-si"></span></li>
+              <li class="bullet-item code">class: map-si</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Slovakia</li>
+              <li class="bullet-item glyph"><span class="map-sk"></span></li>
+              <li class="bullet-item code">class: map-sk</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">San Marino</li>
+              <li class="bullet-item glyph"><span class="map-sm"></span></li>
+              <li class="bullet-item code">class: map-sm</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Turkey</li>
+              <li class="bullet-item glyph"><span class="map-tr"></span></li>
+              <li class="bullet-item code">class: map-tr</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Ukraine</li>
+              <li class="bullet-item glyph"><span class="map-ua"></span></li>
+              <li class="bullet-item code">class: map-ua</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">United Kingdom</li>
+              <li class="bullet-item glyph"><span class="map-uk"></span></li>
+              <li class="bullet-item code">class: map-uk</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Vatican City</li>
+              <li class="bullet-item glyph"><span class="map-va"></span></li>
+              <li class="bullet-item code">class: map-va</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Europe</li>
+              <li class="bullet-item glyph"><span class="map-eur"></span></li>
+              <li class="bullet-item code">class: map-eur</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <p>
-        Here are all of the individual glyphs in the font. (At this size it's
-        hard to see some of the microstates, but they're there if you need them.)
-      </p>
-      <ul class="small-block-grid-2 large-block-grid-4" id="glyphs">
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Andorra</li>
-            <li class="bullet-item glyph"><span class="map-ad"></span></li>
-            <li class="bullet-item code">class: map-ad</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Albania</li>
-            <li class="bullet-item glyph"><span class="map-al"></span></li>
-            <li class="bullet-item code">class: map-al</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Austria</li>
-            <li class="bullet-item glyph"><span class="map-at"></span></li>
-            <li class="bullet-item code">class: map-at</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Bosnia</li>
-            <li class="bullet-item glyph"><span class="map-ba"></span></li>
-            <li class="bullet-item code">class: map-ba</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Belgium</li>
-            <li class="bullet-item glyph"><span class="map-be"></span></li>
-            <li class="bullet-item code">class: map-be</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Bulgaria</li>
-            <li class="bullet-item glyph"><span class="map-bg"></span></li>
-            <li class="bullet-item code">class: map-bg</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Belorus</li>
-            <li class="bullet-item glyph"><span class="map-by"></span></li>
-            <li class="bullet-item code">class: map-by</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Switzerland</li>
-            <li class="bullet-item glyph"><span class="map-ch"></span></li>
-            <li class="bullet-item code">class: map-ch</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Cyprus</li>
-            <li class="bullet-item glyph"><span class="map-cy"></span></li>
-            <li class="bullet-item code">class: map-cy</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Czech Republic</li>
-            <li class="bullet-item glyph"><span class="map-cz"></span></li>
-            <li class="bullet-item code">class: map-cz</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Germany</li>
-            <li class="bullet-item glyph"><span class="map-de"></span></li>
-            <li class="bullet-item code">class: map-de</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Denmark</li>
-            <li class="bullet-item glyph"><span class="map-dk"></span></li>
-            <li class="bullet-item code">class: map-dk</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Estonia</li>
-            <li class="bullet-item glyph"><span class="map-ee"></span></li>
-            <li class="bullet-item code">class: map-ee</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Spain</li>
-            <li class="bullet-item glyph"><span class="map-es"></span></li>
-            <li class="bullet-item code">class: map-es</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Finland</li>
-            <li class="bullet-item glyph"><span class="map-fi"></span></li>
-            <li class="bullet-item code">class: map-fi</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Faroe Islands</li>
-            <li class="bullet-item glyph"><span class="map-fo"></span></li>
-            <li class="bullet-item code">class: map-fo</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">France</li>
-            <li class="bullet-item glyph"><span class="map-fr"></span></li>
-            <li class="bullet-item code">class: map-fr</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Georgia</li>
-            <li class="bullet-item glyph"><span class="map-ge"></span></li>
-            <li class="bullet-item code">class: map-ge</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Guernsey</li>
-            <li class="bullet-item glyph"><span class="map-gg"></span></li>
-            <li class="bullet-item code">class: map-gg</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Greece</li>
-            <li class="bullet-item glyph"><span class="map-gr"></span></li>
-            <li class="bullet-item code">class: map-gr</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Croatia</li>
-            <li class="bullet-item glyph"><span class="map-hr"></span></li>
-            <li class="bullet-item code">class: map-hr</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Hungary</li>
-            <li class="bullet-item glyph"><span class="map-hu"></span></li>
-            <li class="bullet-item code">class: map-hu</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Ireland</li>
-            <li class="bullet-item glyph"><span class="map-ie"></span></li>
-            <li class="bullet-item code">class: map-ie</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Isle of Man</li>
-            <li class="bullet-item glyph"><span class="map-im"></span></li>
-            <li class="bullet-item code">class: map-im</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Iceland</li>
-            <li class="bullet-item glyph"><span class="map-is"></span></li>
-            <li class="bullet-item code">class: map-is</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Italy</li>
-            <li class="bullet-item glyph"><span class="map-it"></span></li>
-            <li class="bullet-item code">class: map-it</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Jersey</li>
-            <li class="bullet-item glyph"><span class="map-je"></span></li>
-            <li class="bullet-item code">class: map-je</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Liechtenstein</li>
-            <li class="bullet-item glyph"><span class="map-li"></span></li>
-            <li class="bullet-item code">class: map-li</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Lithuania</li>
-            <li class="bullet-item glyph"><span class="map-lt"></span></li>
-            <li class="bullet-item code">class: map-lt</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Luxembourg</li>
-            <li class="bullet-item glyph"><span class="map-lu"></span></li>
-            <li class="bullet-item code">class: map-lu</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Latvia</li>
-            <li class="bullet-item glyph"><span class="map-lv"></span></li>
-            <li class="bullet-item code">class: map-lv</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Monaco</li>
-            <li class="bullet-item glyph"><span class="map-mc"></span></li>
-            <li class="bullet-item code">class: map-mc</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Moldova</li>
-            <li class="bullet-item glyph"><span class="map-md"></span></li>
-            <li class="bullet-item code">class: map-md</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Montenegro</li>
-            <li class="bullet-item glyph"><span class="map-me"></span></li>
-            <li class="bullet-item code">class: map-me</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Macedonia</li>
-            <li class="bullet-item glyph"><span class="map-mk"></span></li>
-            <li class="bullet-item code">class: map-mk</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Malta</li>
-            <li class="bullet-item glyph"><span class="map-mt"></span></li>
-            <li class="bullet-item code">class: map-mt</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Netherlands</li>
-            <li class="bullet-item glyph"><span class="map-nl"></span></li>
-            <li class="bullet-item code">class: map-nl</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Norway</li>
-            <li class="bullet-item glyph"><span class="map-no"></span></li>
-            <li class="bullet-item code">class: map-no</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Country</li>
-            <li class="bullet-item glyph"><span class="map-pl"></span></li>
-            <li class="bullet-item code">class: map-pl</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Portugal</li>
-            <li class="bullet-item glyph"><span class="map-pt"></span></li>
-            <li class="bullet-item code">class: map-pt</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Romania</li>
-            <li class="bullet-item glyph"><span class="map-ro"></span></li>
-            <li class="bullet-item code">class: map-ro</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Serbia</li>
-            <li class="bullet-item glyph"><span class="map-rs"></span></li>
-            <li class="bullet-item code">class: map-rs</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Russia</li>
-            <li class="bullet-item glyph"><span class="map-ru"></span></li>
-            <li class="bullet-item code">class: map-ru</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Sweden</li>
-            <li class="bullet-item glyph"><span class="map-se"></span></li>
-            <li class="bullet-item code">class: map-se</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Slovenia</li>
-            <li class="bullet-item glyph"><span class="map-si"></span></li>
-            <li class="bullet-item code">class: map-si</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Slovakia</li>
-            <li class="bullet-item glyph"><span class="map-sk"></span></li>
-            <li class="bullet-item code">class: map-sk</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">San Marino</li>
-            <li class="bullet-item glyph"><span class="map-sm"></span></li>
-            <li class="bullet-item code">class: map-sm</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Turkey</li>
-            <li class="bullet-item glyph"><span class="map-tr"></span></li>
-            <li class="bullet-item code">class: map-tr</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Ukraine</li>
-            <li class="bullet-item glyph"><span class="map-ua"></span></li>
-            <li class="bullet-item code">class: map-ua</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">United Kingdom</li>
-            <li class="bullet-item glyph"><span class="map-uk"></span></li>
-            <li class="bullet-item code">class: map-uk</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Vatican City</li>
-            <li class="bullet-item glyph"><span class="map-va"></span></li>
-            <li class="bullet-item code">class: map-va</li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Europe</li>
-            <li class="bullet-item glyph"><span class="map-eur"></span></li>
-            <li class="bullet-item code">class: map-eur</li>
-          </ul>
-        </li>
-      </ul>
+  <!--
+=================================================================================
+ LICENSE
+=================================================================================
+   -->
+  <div data-magellan-destination="license">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="license">License</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <p>
+          The Continental font is licensed under the
+          <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">SIL Open Font License</a>
+          and is free for commercial and non-commercial use with no restrictions or
+          constraints.
+        </p>
+        <p>
+          The supporting files (CSS and Javascript) are products of the
+          <a href="http://icomoon.io">icomoon.io</a> web app and are
+          licensed under the open source
+          <a href="https://github.com/Keyamoon/IcoMoon-App/blob/master/LICENSE.md">MIT license</a>.
+        </p>
+        <p>
+          In a nutshell, you're free to use Continental however you'd like, in
+          free or commercial projects. You don't have to include any
+          attribution, though one is always appreciated. If you do use Continental,
+          and can send me a <a href="mailto:stephen@sathomas.me">note</a>, I'll add
+          your project to the list of examples.
+        </p>
+      </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="license" id="license">License</h3>
+  <!--
+=================================================================================
+ ACKNOWLEDGEMENTS
+=================================================================================
+   -->
+  <div data-magellan-destination="acknowledgements">
+    <div class="row">
+      <div class="large-12 columns">
+        <h3 id="acknowledgements">Acknowledgements</h3>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <p>
-        The Continental font is licensed under the
-        <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">SIL Open Font License</a>
-        and is free for commercial and non-commercial use with no restrictions or
-        constraints.
-      </p>
-      <p>
-        The supporting files (CSS and Javascript) are products of the
-        <a href="http://icomoon.io">icomoon.io</a> web app and are
-        licensed under the open source
-        <a href="https://github.com/Keyamoon/IcoMoon-App/blob/master/LICENSE.md">MIT license</a>.
-      </p>
-      <p>
-        In a nutshell, you're free to use Continental however you'd like, in
-        free or commercial projects. You don't have to include any
-        attribution, though one is always appreciated. If you do use Continental,
-        and can send me a <a href="mailto:stephen@sathomas.me">note</a>, I'll add
-        your project to the list of examples.
-      </p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <h3 data-magellan-destination="acknowledgements" id="acknowledgements">Acknowledgements</h3>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="large-10 columns">
-      <p>
-        Even though my name is in the footer, this project would not have been possible
-        without a lot of other folks.
-      </p>
-      <ul class="content">
-        <li>
-          First and foremost, thanks to <a href="https://twitter.com/bpmarkowitz">Ben Markowitz</a>.
-          As soon as I saw his cool <a href="http://intridea.github.io/stately/">Stately font</a>,
-          I knew I had to try my hand at it. (I do hope he understands that imitation is the
-          sincerest form of flattery.)
-        </li>
-        <li>
-          Of course Continental wouldn't be possible without maps. For those I thank
-          <a href="http://commons.wikimedia.org/wiki/User:Mfloryan">Marcin Floryan</a>
-          for his <a href="http://commons.wikimedia.org/wiki/File:Europe-countries-outline-iso-coded-plain.svg">contribution</a>
-          to Wikimedia Commons.
-        </li>
-        <li>
-          <a href="http://www.bohemiancoding.com">Bohemian Coding</a> makes the best web
-          design app in the world: <a href="https://itunes.apple.com/us/app/sketch/id402476602">Sketch 2</a>.
-          Sketch 2 made it easy to generate individual country files from the complete map.
-        </li>
-        <li>
-          <a href="http://twitter.com/keyamoon">Keyamoon</a>'s awesome
-          <a href="http://icomoon.io">icomoon.io</a> has all the tools you need to create
-          perfect symbol fonts for the web. The technology is top-notch, and the
-          web app is a joy to use.
-        </li>
-        <li>
-          Finally, thank you (yes, you) for your interest.
-        </li>
-      </ul>
+  
+    <div class="row">
+      <div class="large-10 columns">
+        <p>
+          Even though my name is in the footer, this project would not have been possible
+          without a lot of other folks.
+        </p>
+        <ul class="content">
+          <li>
+            First and foremost, thanks to <a href="https://twitter.com/bpmarkowitz">Ben Markowitz</a>.
+            As soon as I saw his cool <a href="http://intridea.github.io/stately/">Stately font</a>,
+            I knew I had to try my hand at it. (I do hope he understands that imitation is the
+            sincerest form of flattery.)
+          </li>
+          <li>
+            Of course Continental wouldn't be possible without maps. For those I thank
+            <a href="http://commons.wikimedia.org/wiki/User:Mfloryan">Marcin Floryan</a>
+            for his <a href="http://commons.wikimedia.org/wiki/File:Europe-countries-outline-iso-coded-plain.svg">contribution</a>
+            to Wikimedia Commons.
+          </li>
+          <li>
+            <a href="http://www.bohemiancoding.com">Bohemian Coding</a> makes the best web
+            design app in the world: <a href="https://itunes.apple.com/us/app/sketch/id402476602">Sketch 2</a>.
+            Sketch 2 made it easy to generate individual country files from the complete map.
+          </li>
+          <li>
+            <a href="http://twitter.com/keyamoon">Keyamoon</a>'s awesome
+            <a href="http://icomoon.io">icomoon.io</a> has all the tools you need to create
+            perfect symbol fonts for the web. The technology is top-notch, and the
+            web app is a joy to use.
+          </li>
+          <li>
+            Finally, thank you (yes, you) for your interest.
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   
-  
-  <!-- Footer -->
+  <!--
+=================================================================================
+ FOOTER
+=================================================================================
+   -->
   
   <footer class="row">
     <div class="large-12 columns">

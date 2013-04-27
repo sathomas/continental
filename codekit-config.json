@@ -30,7 +30,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/foundation.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/css\/styles.min.css" : {
@@ -39,7 +39,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/styles.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/js\/scripts.z.js" : {
@@ -190,7 +190,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/continental.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/assets\/Croissant and Coffee cropped.jpg" : {
@@ -221,7 +221,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/prism.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/css\/normalize.css" : {
@@ -230,7 +230,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/js\/vendor\/custom.modernizr.js" : {
@@ -268,17 +268,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/img\/candc290.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/candc290.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/candc290.jpg",
-      "initialSize" : 19378,
-      "fileType" : 4096
-    },
     "\/img\/candc290@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -288,6 +277,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/candc290@2x.jpg",
       "initialSize" : 56277,
+      "fileType" : 4096
+    },
+    "\/img\/candc290.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/candc290.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/candc290.jpg",
+      "initialSize" : 19378,
       "fileType" : 4096
     },
     "\/index.html" : {
@@ -338,7 +338,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/custom.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/js\/vendor\/prism.js" : {
@@ -578,7 +578,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "continental-gh-pages",
+    "displayValue" : "continental",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }
