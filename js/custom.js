@@ -1,5 +1,5 @@
 $(document).foundation();
-$(window).ready(function() {
+$(window).load(function() {
 
    var sizeMaps = function() {
      var w = Math.min(1000,$(window).width());
