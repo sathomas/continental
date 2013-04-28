@@ -24,7 +24,7 @@
 =================================================================================
    -->
 
-  <div class="row">
+  <div class="row" id="top">
     <div class="large-12 columns">
       <div class="hero">
         <h1>Continental</h1>
@@ -47,7 +47,7 @@
           <ul class="title-area">
             <!-- Title Area -->
             <li class="name">
-              <h1>Continental: </h1>
+              <h1><a href="#top">Continental: </a></h1>
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
@@ -176,10 +176,15 @@
         <blockquote>
           <p>
             Note: The <code class="language-css">map-eur</code> symbol is very
-            complex (all those Norwegian fjords and Greek islands), and most
-            browsers take several seconds to render it. You might want to take
-            extra steps to deal with any performance issues that this delay
-            could create.
+            complex (with all those Norwegian fjords, Greek islands, etc.
+            combined into a single glyph), and most browsers take several seconds
+            to render it. You might want to take extra steps to deal with any
+            performance issues that this delay could create. As an alternative,
+            you can simply combine all the countries in your markup (see next
+            section). The browsers that have problems with the
+            <code class="language-css">map-eur</code> symbol don't seem to
+            have problems with all 51 other symbols, even when they're combined
+            on the page.
           </p>
         </blockquote>
         <p>
@@ -305,7 +310,7 @@
               <span class="map-ua lang-1"></span>
               <span class="map-uk lang-1"></span>
               <span class="map-va lang-1"></span>
-          </span>
+          </div>
         </figure>
         <div class="legend">
           <span class="lang-1">&#x2587;</span> 1 &nbsp;&nbsp;
@@ -318,7 +323,36 @@
         <figure class="map">
           <figcaption>The Eurozone</figcaption>
           <div class="map-stack">
-              <span class="map-eur base"></span>
+              <span class="map-al base"></span>
+              <span class="map-ba base"></span>
+              <span class="map-bg base"></span>
+              <span class="map-by base"></span>
+              <span class="map-ch base"></span>
+              <span class="map-cz base"></span>
+              <span class="map-dk base"></span>
+              <span class="map-fo base"></span>
+              <span class="map-ge base"></span>
+              <span class="map-gg base"></span>
+              <span class="map-hr base"></span>
+              <span class="map-hu base"></span>
+              <span class="map-al base"></span>
+              <span class="map-im base"></span>
+              <span class="map-jj base"></span>
+              <span class="map-li base"></span>
+              <span class="map-lt base"></span>
+              <span class="map-lv base"></span>
+              <span class="map-md base"></span>
+              <span class="map-me base"></span>
+              <span class="map-mk base"></span>
+              <span class="map-no base"></span>
+              <span class="map-pt base"></span>
+              <span class="map-ro base"></span>
+              <span class="map-rs base"></span>
+              <span class="map-ru base"></span>
+              <span class="map-se base"></span>
+              <span class="map-tr base"></span>
+              <span class="map-ua base"></span>
+              <span class="map-uk base"></span>
               <span class="map-ad eu"></span>
               <span class="map-at eu"></span>
               <span class="map-be eu"></span>
@@ -340,7 +374,7 @@
               <span class="map-sk eu"></span>
               <span class="map-sm eu"></span>
               <span class="map-va eu"></span>
-          </span>
+          </div>
         </figure>
       </div>
     </div>
@@ -724,7 +758,7 @@
           <li>
             <ul class="pricing-table">
               <li class="title">Europe</li>
-              <li class="bullet-item glyph"><span class="map-eur"></span></li>
+              <li class="bullet-item glyph"><span class="map-eur"></span></li></li>
               <li class="bullet-item code">class: map-eur</li>
             </ul>
           </li>
@@ -775,7 +809,7 @@
   <div data-magellan-destination="acknowledgements">
     <div class="row">
       <div class="large-12 columns">
-        <h3 id="acknowledgements">Acknowledgements</h3>
+        <h3 id="acknowledgements" class="nofix">Acknowledgements</h3>
       </div>
     </div>
   

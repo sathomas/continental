@@ -13,14 +13,10 @@ code {
   margin-bottom: 0;
 }
 
-.top-bar .title-area .name h1 {
-  color: white;
-  font-weight: bold;
-  width: 50%;
-  display: block;
-  padding: 0 15px;
+#top {
+  padding-top:45px;
+  margin-top:-45px;
 }
-
 
 [data-magellan-expedition] {
   padding: 0;
@@ -31,9 +27,10 @@ code {
   z-index: 2;
 }
 
-h3 {
+h3:not(.nofix) {
   padding-top: 45px;
   margin-top: -40px;
+  margin-top: calc(-45px - 0.2em);
 }
 
 pre[class*="language-"] {
@@ -178,10 +175,10 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
   .hero #cafe { background-image: url("../img/candc970@2x.jpg"); }
 }
 
-.map-stack {
+.map-stack, .glyph-stack {
   position: relative;
 }
-.map-stack > [class*="map-"] {
+.map-stack > [class*="map-"], .glyph-stack > [class*="map-"] {
   position: absolute;
   top: 0;
   left: 0;
@@ -210,6 +207,10 @@ figure.map figcaption {
 #glyphs .pricing-table .bullet-item.glyph {
   font-size: 10em;
   padding: 0.1em 0 0 0;
+}
+#glyphs .pricing-table .bullet-item.glyph div.glyph-stack {
+  height: 1.085em;
+  margin-left: 0.2em;
 }
 #glyphs .pricing-table .bullet-item.code {
   background-color: #e9e8e6;

@@ -13,15 +13,15 @@
       "outputAbbreviatedPath" : "\/js\/scripts.z.min-ck.js",
       "fileType" : 64
     },
-    "\/js\/foundation\/foundation.section.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.section.js",
+    "\/js\/scripts.z.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/js\/scripts.z.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.section-ck.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/scripts.z.min.js",
       "fileType" : 64
     },
     "\/css\/foundation.css" : {
@@ -42,16 +42,16 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/js\/scripts.z.js" : {
+    "\/assets\/Croissant and Coffee.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/js\/scripts.z.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/scripts.z.min.js",
-      "fileType" : 64
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/Croissant and Coffee.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/Croissant and Coffee.jpg",
+      "initialSize" : 4266106,
+      "fileType" : 4096
     },
     "\/js\/vendor\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
@@ -396,16 +396,16 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.topbar-ck.js",
       "fileType" : 64
     },
-    "\/assets\/Croissant and Coffee.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/js\/foundation\/foundation.section.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/Croissant and Coffee.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/Croissant and Coffee.jpg",
-      "initialSize" : 4266106,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.section.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.section-ck.js",
+      "fileType" : 64
     },
     "\/js\/scripts.jq.js" : {
       "ignoreWasSetByUser" : 0,
