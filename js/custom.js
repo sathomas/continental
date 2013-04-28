@@ -1,6 +1,6 @@
 $(document).foundation();
 $(window).ready(function() {
-  
+
    var sizeMaps = function() {
      var w = Math.min(1000,$(window).width());
      if (w > 768) { w = w/3;} else { w = 333;}
@@ -13,8 +13,8 @@ $(window).ready(function() {
        $("#example-maps .large-4").height($("#example-maps .large-8").height());
        $("#example-maps .large-4 figure").last().css("position","absolute").css("bottom","0");
      }
-   }
+   };
    sizeMaps();
    $(window).resize(sizeMaps);
-  
-})
+
+});

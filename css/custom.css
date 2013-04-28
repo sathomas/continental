@@ -13,9 +13,27 @@ code {
   margin-bottom: 0;
 }
 
+.top-bar .title-area .name h1 {
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  display: block;
+  padding: 0 15px;
+}
+
+
 [data-magellan-expedition] {
   padding: 0;
   background-color: #111;
+}
+
+.top-bar {
+  z-index: 2;
+}
+
+h3 {
+  padding-top: 45px;
+  margin-top: -40px;
 }
 
 pre[class*="language-"] {
