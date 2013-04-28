@@ -192,7 +192,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
 
 figure.map figcaption {
   font-size: 1.3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .legend .attribution {
   float: right;
