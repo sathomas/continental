@@ -95,7 +95,7 @@
             topbar.parent().removeClass('fixed');
             topbar.addClass('fixed');
             $('body').css('padding-top','0');
-            window.scrollTo(0,0);
+//            window.scrollTo(0,0);
           }
         })
 
