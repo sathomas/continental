@@ -94,9 +94,10 @@ only screen and (                min-resolution: 2dppx) {
 
 #banner-bg {
   width: 100%;
+  background-color: #111;
   background-image: url('../img/bg_left.png'), url('../img/bg_right.png');
   background-position: left, right;
-  background-size: 50% 100%, 50% 100%;
+  background-size: 50% 100%, 100% 100%;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -179,7 +180,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (max-width: 320px),
 only screen and (                min-resolution: 192dpi) and (max-width: 320px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 320px) {
   /* Small screen, retina */
-  .hero #cafe { background-image: url("../img/candc290.jpg@2x"); }
+  .hero #cafe { background-image: url("../img/candc290@2x.jpg"); }
 }
 @media only screen and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, non-retina */
