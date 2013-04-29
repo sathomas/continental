@@ -13,18 +13,13 @@ code {
   margin-bottom: 0;
 }
 
-#top {
-  padding-top:45px;
-  margin-top:-45px;
-}
-
 [data-magellan-expedition] {
   padding: 0;
   background-color: #111;
 }
 
 .top-bar {
-  z-index: 2;
+  z-index: 3;
 }
 
 h3:not(.nofix) {
@@ -69,6 +64,23 @@ ul.content {
 
 ul.content li:not(:last-child) {
   padding-bottom: 0.5em;
+}
+
+#top {
+  padding-top:45px;
+  margin-top:-45px;
+}
+
+#banner-bg {
+  width: 100%;
+  background: url('../img/bg_left.png'), url('../img/bg_right.png');
+  background-position: left, right;
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#banner {
+  z-index: 2;
 }
 
 .hero {
@@ -214,4 +226,12 @@ figure.map figcaption {
 }
 #glyphs .pricing-table .bullet-item.code {
   background-color: #e9e8e6;
+}
+
+#footer-bg {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: 100%;
+  background-color: #615a50;
+  color: white;
 }
