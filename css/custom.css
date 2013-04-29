@@ -66,6 +66,27 @@ ul.content li:not(:last-child) {
   padding-bottom: 0.5em;
 }
 
+@media only screen {
+  body {
+    background-image: url("../img/paper_fibers.png");
+    background-repeat: repeat;
+  }
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  body {
+    background-image: url("../img/paper_fibers@2x.png");
+    background-repeat: repeat;
+  }
+}
+
+
 #top {
   padding-top:45px;
   margin-top:-45px;
@@ -73,7 +94,7 @@ ul.content li:not(:last-child) {
 
 #banner-bg {
   width: 100%;
-  background: url('../img/bg_left.png'), url('../img/bg_right.png');
+  background-image: url('../img/bg_left.png'), url('../img/bg_right.png');
   background-position: left, right;
   background-size: 50% 100%, 50% 100%;
   background-repeat: no-repeat, no-repeat;
