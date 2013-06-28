@@ -163,6 +163,16 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+@media only screen and (max-width: 568px) {
+  .hero h1 {
+    text-shadow: rgba(128,122,110,0.8) 2px 2px 2px;
+  }
+  
+  .hero h2 {
+    text-shadow: rgba(128,122,110,0.7) 1px 1px 1px;
+  }
+}
+
 /* default screen, non-retina */
 .hero #cafe { background-image: url("../img/candc970.jpg"); }
 

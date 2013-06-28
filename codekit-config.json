@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8283",
+  "creatorBuild" : "8300",
   "files" : {
     "\/js\/scripts.z.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -13,6 +13,35 @@
       "outputAbbreviatedPath" : "\/js\/scripts.z.min-ck.js",
       "fileType" : 64
     },
+    "\/js\/foundation\/foundation.section.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.section.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.section-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/foundation.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/foundation.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/styles.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/styles.min.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
     "\/js\/scripts.z.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -23,35 +52,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/scripts.z.min.js",
       "fileType" : 64
-    },
-    "\/css\/foundation.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/foundation.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/bg_right.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg_right.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bg_right.png",
-      "initialSize" : 2850,
-      "fileType" : 8192
-    },
-    "\/css\/styles.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/styles.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/img\/paper_fibers.png" : {
       "ignoreWasSetByUser" : 0,
@@ -86,16 +86,16 @@
       "outputAbbreviatedPath" : "\/js\/custom-ck.js",
       "fileType" : 64
     },
-    "\/js\/foundation\/foundation.section.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/img\/bg_right.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.section.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.section-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/bg_right.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bg_right.png",
+      "initialSize" : 2850,
+      "fileType" : 8192
     },
     "\/js\/foundation.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -234,7 +234,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/continental.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/assets\/Croissant and Coffee cropped.jpg" : {
@@ -265,7 +265,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/prism.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/css\/normalize.css" : {
@@ -274,7 +274,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/js\/vendor\/custom.modernizr.js" : {
@@ -312,17 +312,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/img\/candc290.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/candc290.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/candc290.jpg",
-      "initialSize" : 19378,
-      "fileType" : 4096
-    },
     "\/img\/candc290@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -332,6 +321,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/candc290@2x.jpg",
       "initialSize" : 56277,
+      "fileType" : 4096
+    },
+    "\/img\/candc290.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/candc290.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/candc290.jpg",
+      "initialSize" : 19378,
       "fileType" : 4096
     },
     "\/index.html" : {
@@ -404,7 +404,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/custom.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/js\/foundation\/foundation.magellan.js" : {
@@ -589,34 +589,29 @@
     },
     "jsLintFlags" : {
       "white" : 0,
-      "bitwise" : 0,
+      "unparam" : 0,
       "regexp" : 0,
+      "nomen" : 0,
       "vars" : 0,
-      "anon" : 0,
       "sub" : 0,
       "stupid" : 0,
-      "nomen" : 0,
-      "unparam" : 0,
+      "continue" : 0,
+      "bitwise" : 0,
       "newcap" : 0,
-      "'continue'" : 0,
       "sloppy" : 0,
-      "fragment" : 0,
-      "undef" : 0,
+      "closure" : 0,
       "es5" : 0,
       "browser" : 1,
       "properties" : 0,
-      "forin" : 0,
       "plusplus" : 0,
       "debug" : 0,
+      "forin" : 0,
       "eqeq" : 0,
-      "confusion" : 0,
       "evil" : 0,
-      "on" : 0,
-      "windows" : 0,
-      "devel" : 0,
-      "rhino" : 0,
       "node" : 0,
-      "css" : 0
+      "rhino" : 0,
+      "devel" : 0,
+      "ass" : 0
     },
     "uglifyFlags" : {
       "no-mangle-functions" : 0,
@@ -630,7 +625,6 @@
       "no-seqs" : 1,
       "beautify" : 0,
       "lift-vars" : 0,
-      "consolidate-primitive-values" : 0,
       "no-squeeze" : 0
     },
     "sassAutoOutputPathReplace2" : "css",
